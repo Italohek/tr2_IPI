@@ -97,7 +97,3 @@ Execute o projeto desejado:
 cd .\src\
 py .\main.py ou py .\onion.py
 ```
-
-## Autor
-
-Italo Braga de Paulo
