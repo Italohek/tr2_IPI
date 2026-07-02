@@ -41,7 +41,7 @@ regions = regionprops(labels)
 # Tumores são massas densas (solidity alta), crânio é fino/curvo (solidity baixa)
 valid_regions = [r for r in regions if r.area > 50 and r.solidity > 0.6]
 
-if not valid_regions:
+if not valid_regions: 
     print("Nenhum tumor detectado.")
 else:
     # Pegamos o maior componente das regiões válidas (sem crânio)
